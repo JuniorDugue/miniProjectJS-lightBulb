@@ -1,0 +1,45 @@
+/* CSS Document */
+
+#container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin-left: 320px;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+
+@media (max-width: 400px){
+    #container {
+        width: 100%;
+        min-width: 400px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: 110%;
+        text-align: center;
+    }
+    
+    img {
+        width: 80%;
+    }  
+}
+
+/*tablet*/
+@media (max-width: 768px){
+    img {
+        margin: 0 auto 0 auto;
+        display: block;
+    }
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LightBulb Project</title>
+<link rel="stylesheet" href="css/styles.css">    
+</head>
+
+<body>
+    
+<div id="container">
+    <h1>Click or Tap on the light bulb</h1>
+    <img src="img/lightoff.jpg" id="lightbulb" onClick="bulbSwitch()" alt="turned off lightbulb" width="350" height="470">    
+</div>    
+    
+<script>
+// JavaScript Document
+
+function bulbSwitch() {
+    const bulb = document.getElementById("lightbulb");
+    if (bulb.src.match("lighton")) {
+        bulb.src = "img/lightoff.jpg";
+    } else {
+        bulb.src = "img/lighton.jpg";
+    }
+}    
+    
+</script>    
+</body>
+</html>
