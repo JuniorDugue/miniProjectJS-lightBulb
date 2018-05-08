@@ -2,6 +2,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">    
 <title>LightBulb Project</title>
 <link rel="stylesheet" href="css/styles.css">    
 </head>
@@ -13,18 +16,6 @@
     <img src="img/lightoff.jpg" id="lightbulb" onClick="bulbSwitch()" alt="turned off lightbulb" width="350" height="470">    
 </div>    
     
-<script>
-// JavaScript Document
-
-function bulbSwitch() {
-    const bulb = document.getElementById("lightbulb");
-    if (bulb.src.match("lighton")) {
-        bulb.src = "img/lightoff.jpg";
-    } else {
-        bulb.src = "img/lighton.jpg";
-    }
-}    
-    
-</script>    
+<script src="js/main.js"></script>    
 </body>
 </html>
