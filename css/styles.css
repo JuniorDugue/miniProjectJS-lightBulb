@@ -34,6 +34,7 @@ img {
     
     img {
         width: 80%;
+        cursor: pointer;
     }  
 }
 
@@ -42,5 +43,6 @@ img {
     img {
         margin: 0 auto 0 auto;
         display: block;
+        cursor: pointer;
     }
 }
